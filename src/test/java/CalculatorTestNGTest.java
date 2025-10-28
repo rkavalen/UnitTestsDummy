@@ -27,6 +27,6 @@ public class CalculatorTestNGTest {
 
     @Test(expectedExceptions = ArithmeticException.class)
     public void divisionByZeroTest() {
-        assertEquals("Division by zero test failure", 1, calculator.divide(1, 0));
+        calculator.divide(1, 0);
     }
 }
