@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="0.509" tests="22" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="0.51" tests="24" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Legion\AppData\Local\Temp\surefire14261673389813453161\surefirebooter-20251027224416101_3.jar C:\Users\Legion\AppData\Local\Temp\surefire14261673389813453161 2025-10-27T22-44-15_973-jvmRun1 surefire-20251027224416101_1tmp surefire_0-20251027224416101_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Legion\AppData\Local\Temp\surefire13455378796955323588\surefirebooter-20251028192952242_3.jar C:\Users\Legion\AppData\Local\Temp\surefire13455378796955323588 2025-10-28T19-29-52_134-jvmRun1 surefire-20251028192952242_1tmp surefire_0-20251028192952242_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Legion\Repos\UnitTestsDummy\target\test-classes;C:\Users\Legion\Repos\UnitTestsDummy\target\classes;C:\Users\Legion\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Legion\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Legion\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Legion\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Legion\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Legion\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Legion\AppData\Local\Temp\surefire14261673389813453161\surefirebooter-20251027224416101_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Legion\AppData\Local\Temp\surefire13455378796955323588\surefirebooter-20251028192952242_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -60,31 +60,33 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="additionTest" classname="CalculatorTestNGTest" time="0.004">
+  <testcase name="additionTest" classname="CalculatorTestNGTest" time="0.005">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
+  <testcase name="divisionByZeroTest" classname="CalculatorTestNGTest" time="0.0"/>
   <testcase name="divisionTest" classname="CalculatorTestNGTest" time="0.0"/>
   <testcase name="multiplicationTest" classname="CalculatorTestNGTest" time="0.0"/>
   <testcase name="substructionTest" classname="CalculatorTestNGTest" time="0.0"/>
-  <testcase name="evenNumTest" classname="EvenOddCheckerTestNGTest" time="0.008">
+  <testcase name="evenNumTest" classname="EvenOddCheckerTestNGTest" time="0.003">
     <system-out><![CDATA[Enter an Integer number:
 Entered number is even
 ]]></system-out>
   </testcase>
-  <testcase name="oddNumTest" classname="EvenOddCheckerTestNGTest" time="0.002">
+  <testcase name="oddNumTest" classname="EvenOddCheckerTestNGTest" time="0.01">
     <system-out><![CDATA[Enter an Integer number:
 Entered number is odd
 ]]></system-out>
   </testcase>
-  <testcase name="constructorAndGetLengthTest" classname="RectangleTestNGTest" time="0.001"/>
+  <testcase name="constructorAndGetLengthTest" classname="RectangleTestNGTest" time="0.0"/>
   <testcase name="constructorAndGetWidthTest" classname="RectangleTestNGTest" time="0.0"/>
   <testcase name="getAreaTest" classname="RectangleTestNGTest" time="0.0"/>
-  <testcase name="setLengthAndGetLengthTest" classname="RectangleTestNGTest" time="0.001"/>
-  <testcase name="setWidthAndGetWidthTest" classname="RectangleTestNGTest" time="0.001"/>
-  <testcase name="divisionTest on divisionTest(CalculatorJUnitTest)" classname="CalculatorJUnitTest" time="0.002"/>
+  <testcase name="setLengthAndGetLengthTest" classname="RectangleTestNGTest" time="0.0"/>
+  <testcase name="setWidthAndGetWidthTest" classname="RectangleTestNGTest" time="0.0"/>
+  <testcase name="divisionByZeroTest on divisionByZeroTest(CalculatorJUnitTest)" classname="CalculatorJUnitTest" time="0.002"/>
+  <testcase name="divisionTest on divisionTest(CalculatorJUnitTest)" classname="CalculatorJUnitTest" time="0.0"/>
   <testcase name="additionTest on additionTest(CalculatorJUnitTest)" classname="CalculatorJUnitTest" time="0.0"/>
   <testcase name="multiplicationTest on multiplicationTest(CalculatorJUnitTest)" classname="CalculatorJUnitTest" time="0.0"/>
   <testcase name="substructionTest on substructionTest(CalculatorJUnitTest)" classname="CalculatorJUnitTest" time="0.001"/>
